@@ -60,7 +60,7 @@ body {
 .online {
     display: inline;
     position: relative;
-    top: -130px;
+    top: -185px;
     left: 7px;
     background: rgb(199, 0, 0);
     color: white;
@@ -87,10 +87,10 @@ body {
 }
 
 .details-video-button span {
-    border-radius: 3px;
-    background: gray;
+    border-radius: 5px;
+    background: rgb(133, 161, 163);
     color: white;
-    padding: 3px 7px;
+    padding: 5px 7px;
     font-size: 11px;
     transition: 0.5s all;
 }
@@ -102,14 +102,14 @@ body {
 }
 
 .details-video-button .views {
-    margin-left: 55px;
+    margin-left: 44px;
 }
 
 .details-video {
     margin-top: 15px;
 }
 
-.details-video .details{
+.details-video .details {
     float: right;
     display: inline;
     font-size: 11px;
