@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: rgb(38, 47, 73) !important;
+
+}
+
+/* ------------------------------------- MENU --------------------------------*/
+/*----------------------------------------------------------------------------*/
+.nav-item a i {
+    color: rgb(177, 175, 175);
+    padding: 10px;
+    font-size: 21px;
+}
+
+.link-active {
+    color: rgb(38, 47, 73) !important;
+}
+
+.data-user {
+    margin-left: 30%;
+    padding-top: 8px;
+    color: rgb(52, 60, 82);
+}
+
+.data-user div i {
+    font-size: 21px;
+    padding: 0 10px;
+}
+
+.data-user .user i:first-child{
+    border-left: solid 1px #000;
+    margin-right: -15px;
+}
+
+.box-round {
+    border-radius: 10px;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+#notifications {
+    border-bottom: solid 0.5px rgb(136, 134, 134);
+}
+
+/* ------------------------------------- BOX NOTIFICATIONS --------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+.box-notifications {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.box-notifications .count-notifications {
+    width: 50px;
+    padding: 5px;
+    position: relative;
+    display: inline;
+    top: 13px;
+    left: 20%;
+    border-radius: 15px;
+    font-size: 11px;
+    background: red;
+    color: white;
+}
+
+/* ------------------------------------- BOX ORDENAR --------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+.box-ordenar {
+    border-radius: 5px;
+}
+
+.box-ordenar .item div {
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* ------------------------------------- MENU USERS ---------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+.menu-user .box-notifications .count-notifications {
+    left: 70% !important;
+}
+
+.menu-user .box-notifications .content-notifications {
+    font-size: 10px;
+}
+
+
+
