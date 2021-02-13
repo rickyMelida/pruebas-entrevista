@@ -15,8 +15,12 @@ let first_icon_point = document.querySelector('.f-icon');
 duplicate_and_modify_icons(icons.length, item_menu_user, menu_user, old_icon, icons, names_items);
 duplicate_element(7, notifications, section_notifications);
 
+item_menu_user.classList.remove('text-muted');
+item_menu_user.classList.add('text-dark');
+
 //Eliminamos el icono punto del primer elemento
 first_icon_point.removeChild(first_icon_point.childNodes[0]);
+
 
 //Agregamos margen a la derecha con bootstrap en el elemento que no tiene el icono punto
 let first_image_notifications = document.querySelector('.notification-all .publications .my-fhoto img');
@@ -37,6 +41,7 @@ function duplicate_and_modify_icons(number_of_element, element_origin, container
         new_item.childNodes[1].classList.add(new_icon[i]);
         new_item.childNodes[2].nodeValue = text[i];
         container.appendChild(new_item);
+        new_item.removeAttribute('id');
     }
 }
 

@@ -6,6 +6,9 @@ body {
 
 }
 
+.container-fluid {
+    color: rgb(38, 47, 73) !important;
+}
 /* ------------------------------------- MENU --------------------------------*/
 /*----------------------------------------------------------------------------*/
 .nav-item a i {
@@ -41,7 +44,7 @@ body {
 /*----------------------------------------------------------------------------*/
 
 #notifications {
-    border-bottom: solid 0.5px rgb(136, 134, 134);
+    border-bottom: solid 0.3px rgb(226, 223, 223);
 }
 
 .abs-center {
@@ -56,6 +59,7 @@ body {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 10px;
+    font-size: 13px;
 }
 
 .box-notifications .count-notifications {
@@ -92,7 +96,6 @@ body {
 /*-----------------------------------------------------------------------------------------*/
 #item-menu-user {
     display: inline !important;
-    font-size: 13px;
 }
 
 #item-menu-user:first-child {
