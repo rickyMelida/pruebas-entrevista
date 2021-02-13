@@ -4,6 +4,13 @@ body {
     background: #f7f7f7;
 }
 
+.main-menu {
+    box-shadow: 10px 5px 8px rgba(182, 178, 178, 0.8), 
+                5px  5px  8px rgb(189, 182, 163),
+                15px 5px 8px rgb(206, 206, 206);
+
+}
+
 /* ----------------------- MENU --------------------------*/
 .nav-item a i {
     color: rgb(177, 175, 175);
@@ -13,6 +20,10 @@ body {
 
 .link-active {
     color: rgb(52, 60, 82) !important;
+}
+
+.size-links {
+    font-size: 13px;
 }
 
 .data-user {
@@ -35,6 +46,10 @@ body {
     border-radius: 10px;
 }
 
+.logotipo img{
+    margin-top: -10px;
+}
+
 .seven-col {
     font-size: 11px;
 }
@@ -52,6 +67,22 @@ body {
     background: #0275d8;
     color: white;
 }
+
+
+input:focus {
+    padding-left: 30px;
+}
+
+input:placeholder-shown {
+    padding-left: 30px;
+}
+
+form i {
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
 /* ----------------------- CARDS --------------------------*/
 .card-img-top {
     height: 21vh;
