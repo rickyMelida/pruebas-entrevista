@@ -63,8 +63,9 @@
 
 
     <div class="container-fluid my-3 bg-light">
+        <!-- --------------------------------------------------------------------------------- -->
         <div class="row">
-            <div class="col-lg-8 col-md-8 offset-md-2 bg-white">
+            <div class="col-lg-8 col-md-8 offset-md-2 bg-white section-notifications">
 
                 <!------------------------------------------------------------------------------------------------->
                 <!------------------------------------------------------------------------------------------------->
@@ -115,141 +116,89 @@
 
                 <!------------------------------------------------------------------------------------------------->
                 <!------------------------------------------------------------------------------------------------->
-                <div class="row menu-user bg-light my-3 mx-2">
-
-                    <div class="col-md-6">
-                        <div class="row">
-
-                            <div class="col-md-2 ml-2 mr-2">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-th-large"></i>
-                                        Todas
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 ml-4 mr-2">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-users"></i>
-                                        Privilegiados
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 ml-5 mr-2">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-comments"></i>
-                                        Comentarios
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 ml-5 mr-2">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-heart"></i>
-                                        Me gusta
-                                    </div>
-                                </div>
-                            </div>
+                <div class="row  bg-light my-3 mx-2">
+                    <div class="col-lg-12 col-md-12 menu-user my-4">
+                        <div id="item-menu-user" class="box-notifications text-center bg-light w-100 mx-1">
+                            <i class="pl-1 fas fa-th-large"></i>
+                            Todas
+                            <div class="count-notifications"> 128 </div>
                         </div>
                     </div>
-
-                    <div class="col-md-6">
-                        <div class="row">
-
-                            <div class="col-md-2 ">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-coins"></i>
-                                        Propinas
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 ml-4">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-store"></i>
-                                        Tienda
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 ml-4">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-calendar"></i>
-                                        Calendarios
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 ml-5">
-                                <div class="box-notifications text-center w-100">
-                                    <div class="count-notifications">
-                                        125
-                                    </div>
-                                    <div class="content-notifications">
-                                        <i class="fas fa-envelope-open"></i>
-                                        Buzon de sugerencias
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
                 <!------------------------------------------------------------------------------------------------->
                 <!------------------------------------------------------------------------------------------------->
-                <div class="row">
-
+                <div class="row my-4 notification-all">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="notification pl-3">
+                            <img src="./images/cards/profile.jpg" width="40" class="rounded-circle pt-3" alt="">
+                            <span class="text-danger">Christopher Greer</span>
+                            <span>@ChristopherGreer</span>
+                            <small class="d-block pl-5 text-muted">Hace 11 horas</small>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-4">
+                        <div class="detail-notification pt-3">
+                            <i class="fas fa-comments"></i>
+                            <strong>ha comentado en tu foto:</strong>
+                            <span>que guapa sales!</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-4">
+                        <div class="my-fhoto float-right pr-4">
+                            <img src="./images/image.jpg" width="120" class="img-fluid mr-2 h-50" alt="" >
+                            <span class="f-icon"><i class="fas fa-circle"></i></span>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-            
-            <div class="col-lg-2 col-md-2">
-                <div class="box-ordenar w-50 ml-4 bg-white">
-                    <div class="title text-center pt-2 font-weight-bold">
-                        Ordenar
-                    </div>
-                    <hr class="d-block w-75 mx-auto">
 
-                    <div class="item text-center pb-3">
-                        <div class="bg-light">
-                            Mas recientes
+            <div class="col-lg-2 col-md-2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box-ordenar w-75 ml-4 bg-white">
+                            <div class="title text-center pt-2 font-weight-bold">
+                                Ordenar
+                            </div>
+                            <hr class="d-block w-75 mx-auto">
+        
+                            <div class="item text-center pb-3">
+                                <div class="bg-light">
+                                    Mas recientes
+                                </div>
+                                <div>
+                                    Mas antiguas
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            Mas antiguas
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box-ordenar w-75 ml-4 bg-white">
+                            <div class="title text-center pt-2 font-weight-bold">
+                                Opciones de Post
+                            </div>
+                            <hr class="d-block w-75 mx-auto">
+        
+                            <div class="item text-center pb-3">
+                                <div class="bg-light">
+                                    Eliminar
+                                </div>
+                                <div>
+                                    Marcar como no leído
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 
 
